@@ -1,0 +1,26 @@
+{
+  "name": "ynab_scraper",
+  "version": "1.0.0",
+  "description": "scrapes amazon for orders to send to ynab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessica Keener",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "child-process-promise": "^2.2.1",
+    "commander": "^7.2.0",
+    "date-fns": "^2.20.1",
+    "prompts": "^2.4.1",
+    "ynab": "^1.24.0"
+  },
+  "bin": {
+    "ynab": "bin/ynab"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}

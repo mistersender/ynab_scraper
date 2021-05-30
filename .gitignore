@@ -1,0 +1,5 @@
+node_modules
+scraper/*/*
+
+# exception to the rule
+!scraper/*/.gitkeep 

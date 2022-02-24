@@ -25,8 +25,4 @@ You should now be able to run `ynab <command>` from anywhere.
 ## Scraping
 
 ### Amazon Scraping
-* Install the plugin ["Amazon Order History Reporter"](https://chrome.google.com/webstore/detail/amazon-order-history-repo/mgkilgclilajckgnedgjgnfdokkgnibi)
-* Run a scrape using the Amazon Order History Reporter. Once complete:
-  1. select to view "All"
-  2. right click the table, and "save as". Save into the `scraper/amazon` folder wherever this cli lives. It does not need a specific name.
-* You should now be able to run `ynab scrape amazon` and iterate through the results successfully.
+By default, `ynab scrape` will scrape Amazon. If this is the first time running the scrape, you will be prompted for your username and password. Once the scrape executes, it will ask you to verify each order and add a memo in YNAB based on your input.
